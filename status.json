@@ -14,5 +14,9 @@
   "WARP генератор": {
     "hostname": "warp-liart.vercel.app",
     "online": true
+  },
+  "Ядро VPN-Proxy": {
+    "hostname": "85.209.2.112:2053/offlNdywvX/panel/",
+    "online": false
   }
 }
