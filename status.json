@@ -14,9 +14,5 @@
   "WARP генератор": {
     "hostname": "warp-liart.vercel.app",
     "online": true
-  },
-  "VPN Shere": {
-    "hostname": "https://raw.githubusercontent.com/ASTRACAT2022/VPN-FREE-astra.net-V1/refs/heads/main/website/configs/raw_configs.yaml",
-    "online": false
   }
 }
