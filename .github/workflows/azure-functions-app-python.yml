@@ -1,29 +1,29 @@
-name: Обновить статус
+name: 🚀 Обновить статус
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'  # каждый час
+    - cron: '*/5 * * * *'  # каждые 5 минут
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout репозитория
+      - name: 📥 Checkout репозитория
         uses: actions/checkout@v3
 
-      - name: Установить Python
+      - name: 🐍 Установить Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Запустить скрипт
+      - name: ▶️ Запустить скрипт
         run: python status_updater.py
 
-      - name: Commit и Push
+      - name: ✅ Commit и Push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add status.json
-          git commit -m "Обновление статуса" || echo "Ничего не изменилось"
+          git commit -m "🟢 Обновление статуса" || echo "🔄 Ничего не изменилось"
           git push
