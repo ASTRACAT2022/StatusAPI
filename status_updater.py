@@ -6,7 +6,7 @@ SERVICES = {
     "ASTRACAT DNS": "astracat-dns.vercel.app",
     "Генератор Xray VPN": "vpngen.vercel.app",
     "WARP генератор": "warp-liart.vercel.app",
-    "Ядро VPN-Proxy": "85.209.2.112:2053/offlNdywvX/panel/"
+    "Ядро VPN-Proxy": "85.209.2.112:1499"
 }
 
 def check_status(hostname):
