@@ -5,8 +5,7 @@ SERVICES = {
     "Основной сайт ASTRACAT": "astracat.vercel.app",
     "ASTRACAT DNS": "astracat-dns.vercel.app",
     "Генератор Xray VPN": "vpngen.vercel.app",
-    "WARP генератор": "warp-liart.vercel.app",
-    "VPN Shere": "https://raw.githubusercontent.com/ASTRACAT2022/VPN-FREE-astra.net-V1/refs/heads/main/website/configs/raw_configs.yaml"
+    "WARP генератор": "warp-liart.vercel.app"
 }
 
 def check_status(hostname):
