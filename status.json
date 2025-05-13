@@ -15,8 +15,8 @@
     "hostname": "warp-liart.vercel.app",
     "online": true
   },
-  "Ядро VPN-Proxy": {
-    "hostname": "85.209.2.112:1499",
+  "VPN Shere": {
+    "hostname": "https://raw.githubusercontent.com/ASTRACAT2022/VPN-FREE-astra.net-V1/refs/heads/main/website/configs/raw_configs.yaml",
     "online": false
   }
 }
