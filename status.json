@@ -1,1 +1,18 @@
-{}
+{
+  "Основной сайт ASTRACAT": {
+    "hostname": "astracat.vercel.app",
+    "online": true
+  },
+  "ASTRACAT DNS": {
+    "hostname": "astracat-dns.vercel.app",
+    "online": true
+  },
+  "Генератор Xray VPN": {
+    "hostname": "vpngen.vercel.app",
+    "online": true
+  },
+  "WARP генератор": {
+    "hostname": "warp-liart.vercel.app",
+    "online": true
+  }
+}
