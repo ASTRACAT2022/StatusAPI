@@ -11,8 +11,8 @@
     "hostname": "vpngen.vercel.app",
     "online": true
   },
-  "WARP генератор": {
-    "hostname": "warp-liart.vercel.app",
-    "online": true
+  "WARP Бот Телеграмм": {
+    "hostname": "https://warpxc-56ul.onrender.com",
+    "online": false
   }
 }
